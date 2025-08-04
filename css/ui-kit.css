@@ -49,6 +49,9 @@ span {
   letter-spacing: 0%;
 }
 
+.text--blue {
+  color: var(--accent-secondary-c);
+}
 
 .ui-button--primary{
   background-color: var(--primary-c);
@@ -66,5 +69,4 @@ span {
 
 .corner-wrapper{
   clip-path: polygon(10% 0%, 80% 0%, 100% 0, 100% 80%, 90% 100%, 20% 100%, 0 100%, 0% 20%);
-  margin-left: 100px;
 }

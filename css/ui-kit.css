@@ -53,6 +53,10 @@ span {
   color: var(--accent-secondary-c);
 }
 
+.text--white {
+  color: var(--secondary-c);
+}
+
 .ui-button--primary{
   background-color: var(--primary-c);
   padding: 19px 50px ;

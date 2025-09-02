@@ -74,3 +74,9 @@ span {
 .corner-wrapper{
   clip-path: polygon(10% 0%, 80% 0%, 100% 0, 100% 80%, 90% 100%, 20% 100%, 0 100%, 0% 20%);
 }
+
+@media screen and (max-width: 1024px) {
+  .container{
+    padding: 0 36px;
+  }
+}

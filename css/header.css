@@ -1,15 +1,15 @@
 .header {
   background-image: url(".././img/v.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  padding-top: 20px;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
 .header__wrapper{
   display: flex;
   align-items: center;
+  padding-top: 20px;
   justify-content: space-between;
 }
 

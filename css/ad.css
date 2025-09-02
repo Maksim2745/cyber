@@ -1,0 +1,46 @@
+.ad {
+  padding-top: 70px;
+  background-color: var(--accent-c);
+}
+
+.ad__wrapper{
+  display: flex;
+  gap: 32px;
+}
+
+.ad__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.ad__left-img {
+  width: 624px;
+  height: auto;
+}
+
+.ad__left-img-2 {
+  width: 540px;
+  height: auto;
+}
+
+.ad__right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 25px;
+}
+
+.ad__right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ad__right-list__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+}

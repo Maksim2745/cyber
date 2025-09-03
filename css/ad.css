@@ -15,16 +15,6 @@
   width: 50%;
 }
 
-.ad__left-img {
-  width: 624px;
-  height: auto;
-}
-
-.ad__left-img-2 {
-  width: 540px;
-  height: auto;
-}
-
 .ad__right {
   display: flex;
   flex-direction: column;
@@ -38,7 +28,7 @@
   gap: 20px;
 }
 
-.ad__right-list__item {
+.ad__right-list-item {
   display: flex;
   justify-content: flex-start;
   align-items: center;

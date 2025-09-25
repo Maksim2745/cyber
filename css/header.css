@@ -18,6 +18,10 @@
   gap: 40px;
 }
 
+.nav__list li {
+  flex-shrink: 0;
+}
+
 .header-bottom {
   display: flex;
   flex-direction: column;
@@ -28,4 +32,27 @@
   max-width: 624px;
   width: 100%;
   margin-left: auto;
+}
+
+@media screen and (max-width: 920px){
+  .header__wrapper{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-bottom {
+    padding: 30px 12px;
+  }
+
+  .nav__list {
+    gap: 30px;
+  }
+
+  .nav__list li {
+    width: 24px;
+  }
+
+  .header-bottom__wrapper {
+    padding: 0;
+  }
 }

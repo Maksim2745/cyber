@@ -13,7 +13,7 @@
 </head>
 <body>
   <div>
-    <header class="header">
+    <!-- <header class="header">
       <div class="header__wrapper container">
         <a href="/"><img src="./img/logo.svg" alt="cyberpunk"></a>
         <nav class="header__nav nav">
@@ -39,61 +39,74 @@
           </ul>
         </nav>
       </div>
-      <div class="container">
-        <div class="header-bottom corner-wrapper ">
+      <div class="container header-bottom__wrapper">
+        <div class="header-bottom corner-wrapper">
           <h2>Доступно на всех платформах</h2>
           <button class="ui-button--primary header__button">Узнать больше</button>
         </div> 
       </div>
     </header>
     <main>
-      <section class="story container">
-        <div class="story__wrapper">
+      <section class="story"> -->
+        <!-- <div class="story__wrapper container">
           <h2>Найт-Сити изменит тебя навсегда!</h2>
           <p class="story-text"><span class="text--blue story__accent-text">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
         </div>
-        <div class="story__content">
+        <div class="story__content container">
           <div class="story__content-left">
             <img class="corner-wrapper" src="img/city-1.jpg" alt="city-1">
             <img class="corner-wrapper" src="img/city-2.jpg" alt="city-2">
           </div>
-          <img class="corner-wrapper" src="img/city-3.jpg" alt="city-3">
+          <img class="corner-wrapper story__content-big-image" src="img/city-3.jpg" alt="city-3">
         </div>
-      </section>
+      </section> -->
       <section class="stock">
+        <img class="stock-lines--mobile" src="img/lines--mobile-top.png" alt="lines-top">
         <img class="stock-lines" src="img/lines-top.svg" alt="lines-top">
-        <div class="stock__top container">
-          <div class="stock__top-wrapper">
-            <img class="stock__icon" src="img/promo.svg" alt="promo">
-            <h2 class="text--white">Играй и выигрывай!</h2>
-          </div>
-          <p class="text--white stock__top-text">Играй в <span class="text--blue story__accent-text">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="text--blue story__accent-text">Xbox Series X</span> или <span class="text--blue story__accent-text">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;) </p>
-        </div>
-        <div class="stock__bottom container">
-          <form class="stock__bottom-form">
-              <input class="stock__bottom-form-input" type="text" placeholder="Как тебя зовут?">
-              <input class="stock__bottom-form-input" type="email" placeholder="Ваш email">
-            <label class="input-file">
-              <input type="file" name="file">
-              <span class="input-file-btn">Прикрепить скриншот</span>           
-              <span class="input-file-text">.png / .jpg / .pdf</span>
-            </label>
-              <button class="ui-button--secondary">Отправить</button>
-              <div class="checkbox__wrapper">
-                <label class="checkbox">
-                  <input class="checkbox__input" type="checkbox" id="checkbox1">
-                  <span aria-hidden="true" class="checkbox__area"></span>
-                </label>
-                <p class="checkbox__text">Согласен на обработку персональных данных</p>
+        <div class="stock__wrapper container">
+          <div class="stock__wrapper-left">
+            <!-- Блок текста -->
+            <div class="stock__top">
+              <div class="stock__top-wrapper">
+                <img class="stock__icon" src="img/promo.svg" alt="promo">
+                <img class="stock__icon-bottom" src="img/xbox&ps5.png" alt="game">
+                <h2 class="text--white stock__top-text-title">Играй и выигрывай!</h2>
               </div>
-          </form>
-          <div class="stock__bottom-img">
-            <img src="img/game.png" alt="game">
+              <p class="text--white stock__top-text">Играй в <span class="text--blue story__accent-text">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="text--blue story__accent-text">Xbox Series X</span> или <span class="text--blue story__accent-text">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;) </p>
+            </div>
+            <!-- Форма обратной связи -->
+            <div class="stock__bottom">
+              <form class="stock__bottom-form">
+                  <input class="stock__bottom-form-input" type="text" placeholder="Как тебя зовут?">
+                  <input class="stock__bottom-form-input" type="email" placeholder="Ваш email">
+                <label class="input-file">
+                  <input type="file" name="file">
+                  <span class="input-file-btn">Прикрепить скриншот</span>           
+                  <span class="input-file-text">.png / .jpg / .pdf</span>
+                </label>
+                  <button class="ui-button--secondary">Отправить</button>
+                  <div class="checkbox__wrapper">
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" id="checkbox1">
+                      <span aria-hidden="true" class="checkbox__area"></span>
+                    </label>
+                    <p class="checkbox__text">Согласен на обработку персональных данных</p>
+                  </div>
+              </form>
+              <div class="stock__bottom-img">
+                <img src="img/game.png" alt="game">
+              </div>
+            </div>
+          </div>
+          <div class="stock__wrapper-right">
+            <img src="img/xbox.png" alt="xbox">
+            <img src="img/ps5.png" alt="ps5">
           </div>
         </div>
         <img class="stock-lines" src="img/lines-bottom.svg" alt="lines-bottom">
+        <img class="stock-lines--mobile" src="img/lines-mobile.png" alt="lines-bottom">
       </section>
-      <section class="ad">
+      <!-- <section class="ad">
         <div class="ad__wrapper container">
           <div class="ad__left">
             <img class="ad__left-img-1" src="img/monitor.png" alt="monitor">
@@ -161,8 +174,22 @@
         </div>
       </section>
     </main>
-
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <div>
+          <a href="/"><img src="./img/logo.svg" alt="cyberpunk"></a>
+          <a href="/"><img src="./img/cd-projekt-logo.svg" alt="cd-projekt"></a>
+        </div>
+        <div class="footer__license">
+          <p class="footer__license-item">Лицензия</p>
+          <p class="footer__license-item"> Политика конфиденциальности </p>
+        </div>
+      </div>
+        <div class="footer-bottom">
+          <span class="text--white">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</span>
+        </div>
+    </footer> -->
   </div>
-  
+
 </body>
 </html>

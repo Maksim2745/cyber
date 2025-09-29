@@ -6,6 +6,7 @@
 .ad__wrapper{
   display: flex;
   gap: 32px;
+  padding-bottom:70px;
 }
 
 .ad__left {

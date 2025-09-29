@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0;
+  gap: 32px;
+}
+
+.footer__license {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-left:365px;
+}
+
+.footer__license-item {
+  display: flex;
+  align-items: center;
+  max-width: 272px;
+  white-space: nowrap;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 0;
+  background-color: var(--primary-c);
+}

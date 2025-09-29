@@ -76,7 +76,21 @@ span {
 }
 
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     padding: 0 36px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:520px){
+  p {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
   }
 }

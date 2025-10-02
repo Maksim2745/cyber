@@ -35,3 +35,43 @@
   align-items: center;
   gap: 14px;
 }
+
+.ad__left-img--laptop {
+  display: none;
+}
+
+@media screen and (max-width: 1024px){
+  .ad__left-img--laptop {
+    display: block;
+}
+  .ad__left-img-2{
+    display: none;
+  }
+  .ad__left{
+    gap: 25px;
+  }
+  .ad__wrapper{
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .ad__left-img--laptop {
+  display: none;
+}
+
+  .ad__left-img-2{
+    display: block;
+  }
+
+  .ad__wrapper{
+    flex-direction: column;
+  }
+
+  .ad__left{
+    width: 100%;
+  }
+  .ad__right{
+    width: 100%;
+  }
+}

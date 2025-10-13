@@ -4,12 +4,12 @@ body {
     background-color: var(--primary-c);
 }
 
-.auth-title{
+.reg-title{
     text-align: center;
     padding-bottom: 20px;
 }
 
-.auth-wrapper {
+.reg-wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -19,56 +19,64 @@ body {
   width: 100%;
 }
 
-.auth{
+.reg{
   background-color: var(--secondary-c);
   padding: 32px;
   border-radius: 12px;
 }
 
-.auth-form{
+.reg-form{
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
 }
 
-.auth-form__login-wrapper{
+.reg-form__login-wrapper{
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.auth-form__password-wrapper{
+.reg-form__password-wrapper{
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.auth-form__password-confirm-wrapper{
+.reg-form__password-confirm-wrapper{
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
-.auth-form__login{
+.reg-form__login{
   box-shadow: 0px 0px 2px var(--primary-c);
   border-radius: 15px;
   padding: 8px 24px;
 }
 
-.auth-form__password{
+.reg-form__password{
   box-shadow: 0px 0px 2px var(--primary-c);
   border-radius: 15px;
   padding: 8px 24px;
 }
 
-.auth-form__button{
+.reg-form__password-confirm{
+  box-shadow: 0px 0px 2px var(--primary-c);
+  border-radius: 15px;
+  padding: 8px 24px;
+}
+
+
+.reg-form__button{
   margin-top: 8px;
 }
 
-a.auth-form__button-reg {
+a.reg-form__button-reg {
   text-decoration: underline;
   color: blue;
 }

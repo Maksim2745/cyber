@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/ui-kit.css">
+    <link rel="stylesheet" href="./css/registration.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <main class="reg-wrapper">
+        <div class="reg">
+            <h2 class="reg-title">Регистрация</h2>
+            <form class="reg-form">
+                <div class="reg-form__login-wrapper">
+                    <label for="login">Введите логин</label>
+                    <input class="reg-form__login" placeholder="Введите логин" id="login" type="text" name="login">
+                </div>
+
+                <div class="reg-form__password-wrapper">
+                    <label for="password">Введите пароль</label>
+                    <input class="reg-form__password" placeholder="Введите пароль" id="password" type="text" name="password">
+                </div>
+
+                <div class="reg-form__password-confirm-wrapper">
+                    <label for="password-confirm">Повторно введите пароль</label>
+                    <input class="reg-form__password-confirm" placeholder="Повторно введите пароль" type="text" id="password-confirm" name="password-confirm">
+                </div>
+                <button type="submit" class="ui-button--secondary auth-form__button">Зарегистрироваться</button>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

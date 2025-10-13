@@ -48,11 +48,17 @@
     gap: 30px;
   }
 
-  .nav__list li {
-    width: 24px;
-  }
-
   .header-bottom__wrapper {
     padding: 0;
+  }
+  .nav__button-auth, .nav__button-reg {
+    padding: 12px 24px;
+  }
+}
+
+@media screen and (max-width: 520px){
+    .nav__list {
+      flex-direction: column-reverse;
+      align-items: center;
   }
 }
